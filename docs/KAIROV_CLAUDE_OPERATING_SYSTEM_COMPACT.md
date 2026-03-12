@@ -128,6 +128,7 @@ Default order:
 4. n8n-MCP for workflow creation, validation, execution, and deployment
 5. PostgreSQL for schema inspection and query checks
 6. Playwright for end-to-end validation and visual checks
+7. Supabase for auth, storage, and multi-tenant workflow state
 
 Rules:
 - use the fewest tools needed to finish reliably
@@ -140,9 +141,6 @@ Rules:
 
 ## MCP expansion priorities
 Install only when active project need exists.
-
-Priority A:
-- Supabase MCP if Kairov needs auth, file storage, or multi-tenant workflow state
 
 Priority B:
 - Firecrawl or Brave Search MCP if lead research, web extraction, or external monitoring becomes repeatable billable work
@@ -205,7 +203,7 @@ Return:
 10. next implementation step
 
 ## Stack awareness
-Assume the environment already contains everything-claude-code, get-shit-done, ruflo, n8n-MCP, Playwright MCP, GitHub MCP, Sequential Thinking MCP, Context7 MCP, and PostgreSQL MCP.
+Assume the environment already contains everything-claude-code, get-shit-done, ruflo, n8n-MCP, Playwright MCP, GitHub MCP, Sequential Thinking MCP, Context7 MCP, PostgreSQL MCP, and Supabase MCP.
 
 Use what is already installed before proposing new tooling. Tool sprawl is a cost.
 
