@@ -1,0 +1,20 @@
+{
+  "name": "kairov",
+  "version": "1.0.0",
+  "description": "Kairov - AI Automation Platform for Workflow Automation",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/server.js",
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report"
+  },
+  "keywords": ["ai", "automation", "workflow", "mcp"],
+  "author": "Nicholas Mincu",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "playwright": "^1.58.2"
+  }
+}
